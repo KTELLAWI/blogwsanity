@@ -1,7 +1,7 @@
 export interface Post {
   _id: String;
   title : String;
-  _createdAt:String;
+  _createdAt:datetime;
   author :{
   name :String;
   image:String;

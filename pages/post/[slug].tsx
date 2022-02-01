@@ -48,7 +48,8 @@ function post({post}:Props) {
         <div>
             <img className='h-10 rounded-t-full w-10 '
             src={urlFor(post.author.image).url()!} alt="" />
-            <p className='font-extralight text-sm '>Blog post by <span className='text-green-600'>{post.author.name}</span>- published at {""} {new Date(post._createdAt.toString()).toLocaleString()} </p>
+            <p className='font-extralight text-sm '>Blog post by <span className='text-green-600'>{post.author.name}</span>- published at {""}  </p>
+            {/* //{new Date(post._createdAt.toString())} */}
         </div>
         <div className='mt-10 '>
             <PortableText 
