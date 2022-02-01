@@ -12,7 +12,7 @@ import sanityClient from "@sanity/client";
 
     const client = sanityClient(config); 
 type Data = {
-  name: string,
+ 
   message:string,
 }
 
