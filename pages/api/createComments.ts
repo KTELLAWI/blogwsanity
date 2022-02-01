@@ -5,7 +5,7 @@ import sanityClient from "@sanity/client";
  const config = { 
     projectId: '1zhvl9pv',// process.env.NEXT_PUBLIC_SANITY_DATASET  ||
     dataset:   'production',//process.env.NEXT_PUBLIC_SANITY_PROJECT_ID
-    token:       'sk9afXnn21uNS78puTrBFK6KIu1IsV3lYshQo76Yk3tyTsIhB7wINr45t7Q0E0CcO5YJef7jQib4NitsubjMrSL560uQozAPMXd7ye1byJeXgNPxjdWemiq6IEKUfKgKbdmTlwkGXtI18p5rZ72QOtMQgSPuSInOk1gTXysIFyNMWF2Iyos4', // or leave blank for unauthenticated usage
+    token: process.env.SANITY_API_TOKEN      , // or leave blank for unauthenticated usage
     useCdn: true, // `false` if you want to ensure fresh data
   };
     //})
