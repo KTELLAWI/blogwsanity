@@ -94,7 +94,7 @@ function post({post}:Props) {
            <input type="hidden"
            {...register("_id")} 
            name="_id"
-           value={post._id}/>  
+           value={post._id.toString()}/>  
 
    <label  className='block mb-5'>
        <span  className='text-gray-700 '>
