@@ -12,7 +12,8 @@ import sanityClient from "@sanity/client";
 
     const client = sanityClient(config); 
 type Data = {
-  name: string
+  name: string,
+  message:string,
 }
 
 export default  async function createComment(
