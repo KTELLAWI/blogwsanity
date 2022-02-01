@@ -129,7 +129,7 @@ function post({post}:Props) {
         <hr className='pb-2' />
         {post.comments.map((comment)=>(
             <div key={comment._id}>
-                <p> <span className='text-yellow-500'>{comment.name}</span>{comment.name}:{comment.comment}</p>
+                <p> <span className='text-yellow-500 p-1 m-2'>{comment.name}</span>{comment.name}:{comment.comment}</p>
             </div>
         ))}
     </div>
